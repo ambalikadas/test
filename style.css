@@ -1,6 +1,7 @@
 /*For whole html structure*/
 *{
     box-sizing:border-box;
+    font-family:"Noto Sans";
 }
 /* To make side by side block*/
 .row::after{
@@ -57,7 +58,7 @@ width:100%;
 }
 
 .container{
-    width:90%;
+    width:85%;
     margin:0 auto;
     font-size:28px;
 }
@@ -66,7 +67,7 @@ width:25%;
 }
 
 a.nav{
-    padding:3%;
+    padding:2%;
     text-decoration:none;
     color:black;
 }
@@ -74,7 +75,7 @@ header{
     margin-top:3%;
 }
 a.highlight{
-    background-color:blue;
+    background-color:rgb(81 81 203);
     padding:4%;
     color:white;
     border:1px solid white;
@@ -88,8 +89,8 @@ menu{
     clear:both;
 }
 input[type="text"]{
-    color:blue;
-    border:1px solid blue;
+    color:rgb(81 81 203);
+    border:1px solid rgb(81 81 203);
     border-radius:2%;
     padding:2%;
     width:420px;
@@ -101,8 +102,8 @@ input[type="text"]{
 .section1 .left{
     padding:0.5%;
 }
-.bluetxt{
-   color:blue;
+.rgb(81 81 203)txt{
+   color:rgb(81 81 203);
    font-size:30px; 
 }
 h1{
@@ -114,7 +115,7 @@ p{
     font-weight:600;
 }
 button{
-    border:1px solid blue;
+    border:1px solid rgb(81 81 203);
     background:transparent;
     padding:3%;
     border-radius:4%;
@@ -124,11 +125,11 @@ button{
     font-weight:600;
 }
 button:hover{
-    background-color:blue;
+    background-color:rgb(81 81 203);
     color:white;
 }
 .active{
-    background-color:blue;
+    background-color:rgb(81 81 203);
     color:white;  
 }
 .middle{
@@ -146,7 +147,7 @@ button:hover{
 }
 .round{
     background-color:white;
-    border:2px solid blue;
+    border:2px solid rgb(81 81 203);
     padding:1%;
     border-radius:50%;
     cursor:pointer;
@@ -163,12 +164,12 @@ p .Orangebtn{
 }
 .spacemore{
     padding:2%;
-    color:blue;
+    color:rgb(81 81 203);
     line-height:40px;
 }
 .one{
     padding:2%;
-    color:blue;
+    color:rgb(81 81 203);
     line-height:40px;
 }
 .box{
@@ -177,7 +178,7 @@ p .Orangebtn{
     border-radius:2%;
     margin-bottom:25%;
 }
-.bluebtn{
+.rgb(81 81 203)btn{
     margin-bottom:20%;
 }
 ul{
@@ -185,7 +186,7 @@ ul{
     margin-left:-7%;
 }
 .one{
-    background-color:blue;
+    background-color:rgb(81 81 203);
     color:white;
 }
 .one img{
@@ -196,7 +197,7 @@ li img{
 }
 .pay{
 padding:5%;
-border:2px solid blue;
+border:2px solid rgb(81 81 203);
 text-align:center;
 border-radius:2%;
 cursor:pointer;
@@ -205,34 +206,34 @@ background-color:white;
 }
 .pay a{
     text-decoration:none;
-    color:blue;
+    color:rgb(81 81 203);
 }
 .border{
     padding-left:2%;
-    border-left: 10px solid blue;
+    border-left: 10px solid rgb(81 81 203);
 }
 td.right{
     padding-left:12%;
 }
 td img{
-    border:2px solid blue;
+    border:2px solid rgb(81 81 203);
     padding:40%;
     width:215%;
     border-radius:5%;
 }
 img.bottom{
-    border:2px solid blue;
+    border:2px solid rgb(81 81 203);
     padding:40%;
     border-radius:50%;
     width:315%;
 }
 .bottom1{
-    border-top:5px solid blue;
+    border-top:5px solid rgb(81 81 203);
     width:315%;
 }
 
 .next_hilight{
-    background-color:blue;
+    background-color:rgb(81 81 203);
     color:white;
     padding:2%;
     border-radius:2%;
@@ -275,8 +276,22 @@ footer{
 .mobile_down{
     display:none;
 }
+.Orangebtn a{
+    color: orange;
+    text-decoration:none;
+}
+.container :is(h1, h2, h3, h4, h5, h6)
+{
+    font-family:"lexand Deca";
+}
 
 @media only screen and (max-width:500px){
+    body{
+        text-align:center;
+    }
+    img.logo{
+        float:left;
+    }
     a.nav.highlight{
         padding:1%;
            }
@@ -396,7 +411,7 @@ footer{
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: rgb(81 81 203);
 }
 
 /* Fading animation */
@@ -449,8 +464,33 @@ td.half{
     vertical-align:top;
 }
 input[type="text"]{
-    width:65%;
+    width:50%;
     font-size:8px;
     float:left;
+}
+td.mobile img{
+    border:2px solid rgb(81 81 203);
+    padding:40%;
+    width:400%;
+    border-radius:5%;
+}
+td.right {
+    padding-left: 21%;
+}
+img.bottom {
+    border: 2px solid rgb(81 81 203);
+    padding: 40%;
+    border-radius: 50%;
+    width: 800%;
+}
+.bottom1 {
+    border-top: 5px solid rgb(81 81 203);
+    width: 800%;
+}
+.box.mb{
+    display:none;
+}
+button {
+font-size:18px;
 }
 }
