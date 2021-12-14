@@ -3,7 +3,7 @@
     box-sizing:border-box;
 }
 /* To make side by side block*/
-.row:after{
+.row::after{
     content:"";
     clear:both;
     display:block;
