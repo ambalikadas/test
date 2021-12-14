@@ -15,8 +15,9 @@
 [class*="col-"]{
 width:100%;
 }
+
 /*Tablet view*/
-@media only screen and (min-width:600px){
+@media only screen and (min-width:500px){
    .col-s-1{width:8.33%;}
    .col-s-2{width:16.66%;}
    .col-s-3{width:25%;}
@@ -30,6 +31,7 @@ width:100%;
    .col-s-11{width:91.66%;}
    .col-s-12{width:100%;}
 }
+
 @media only screen and (min-width:768px){
     .col-1{width:8.33%;}
     .col-2{width:16.66%}
@@ -42,17 +44,55 @@ width:100%;
     .col-9{width:75%;}
     .col-10{width:83.33%;}
     .col-11{width:91.66%;}
-    .col-12{width:100%;}
+    .col-12{width:100%;}    
 }
+
+@media only screen and (max-width:768px){
+    a.nav.highlight{
+        padding:1%;
+           }
+}
+
+/*Large Screen */
+
 .container{
     width:90%;
     margin:0 auto;
+    font-size:28px;
 }
-html{
-    height:100%;
+img.logo{
+width:25%;
+}
+
+a.nav{
+    padding:3%;
+    text-decoration:none;
+    color:black;
+}
+header{
+    margin-top:3%;
+}
+a.highlight{
+    background-color:blue;
+    padding:4%;
+    color:white;
+    border:1px solid white;
+    border-radius:5%;
 }
 menu{
-    right:0;
+    float:right;
+    margin-top:5%;
+}
+.clear{
+    clear:both;
+}
+input[type="text"]{
+    color:blue;
+    border:1px solid blue;
+    border-radius:2%;
+    padding:2%;
+    width:420px;
+    font-size:20px;
 }
 .section1 img{
     width:100%;
@@ -91,7 +131,6 @@ button:hover{
     color:white;  
 }
 .middle{
-    margin-top:37%;
     font-size:25px;
     margin-bottom:8%;
 }
@@ -103,7 +142,13 @@ button:hover{
     margin-left:auto;
     margin-right:auto;
     width:50%;
-    margin-bottom:10%;
+}
+.round{
+    background-color:white;
+    border:2px solid blue;
+    padding:1%;
+    border-radius:50%;
+    cursor:pointer;
 }
 .section2 .space{
     padding-right:2%;
@@ -116,7 +161,14 @@ p .Orangebtn{
     clear:both;
 }
 .spacemore{
-    padding:5%;
+    padding:2%;
+    color:blue;
+    line-height:40px;
+}
+.one{
+    padding:2%;
+    color:blue;
+    line-height:40px;
 }
 .box{
     padding:10%;
@@ -126,4 +178,96 @@ p .Orangebtn{
 }
 .bluebtn{
     margin-bottom:20%;
+}
+ul{
+    list-style-type:none;
+    margin-left:-7%;
+}
+.one{
+    background-color:blue;
+    color:white;
+}
+.one img{
+    filter:brightness(500%)
+}
+li img{
+    padding:1%;
+}
+.pay{
+padding:5%;
+border:2px solid blue;
+text-align:center;
+border-radius:2%;
+cursor:pointer;
+font-size:25px;
+background-color:white;
+}
+.pay a{
+    text-decoration:none;
+    color:blue;
+}
+.border{
+    padding-left:2%;
+    border-left: 10px solid blue;
+}
+td.right{
+    padding-left:12%;
+}
+td img{
+    border:2px solid blue;
+    padding:40%;
+    width:215%;
+    border-radius:5%;
+}
+img.bottom{
+    border:2px solid blue;
+    padding:40%;
+    border-radius:50%;
+    width:315%;
+}
+.bottom1{
+    border-top:5px solid blue;
+    width:315%;
+}
+
+.next_hilight{
+    background-color:blue;
+    color:white;
+    padding:2%;
+    border-radius:2%;
+}
+.next_hilight img{
+    filter:brightness(500%);
+    border:2px solid white;
+}
+.item_left{
+    padding:2%;
+}
+.item_right{
+    padding:2%;
+    float:right;
+}
+h5{
+    margin-bottom:-2%;
+}
+input.send_mail{
+    border: transparent;
+    background: #d3d3d369;
+    color: #80808087;
+    padding:5%;
+}
+.mail img{
+    border:none;
+    padding:0;
+    width:100%;
+}
+.social span{
+padding-right:5%;
+margin-top:2%;
+}
+.social{
+    margin-top:5%;
+}
+footer{
+    text-align:center;
 }
