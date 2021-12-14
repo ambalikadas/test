@@ -433,21 +433,24 @@ footer{
 .mobile_down{
     display:block;
 }
-img.mail{
+.mail img{
     width:20%;
-    border:none;
-    padding:0%;
 }
 input.send_mail{
     width:100%;
+    padding:8%;
 }
-td img.socialize{
+td img{
     padding:0%;
     width:15%;
     border:none;
 }
 td.half{
-    width:50%;
-    text-align:initial;
+    vertical-align:top;
+}
+input[type="text"]{
+    width:65%;
+    font-size:8px;
+    float:left;
 }
 }
